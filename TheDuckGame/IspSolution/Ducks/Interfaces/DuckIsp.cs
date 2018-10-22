@@ -8,7 +8,7 @@ namespace TheDuckGame.IspSolution
 {
     public interface DuckIsp
     {
-         void Swim();
-         void Display();
+        public void Swim();
+        public void Display();
     }
 }
