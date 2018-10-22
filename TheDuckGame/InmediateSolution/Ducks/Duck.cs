@@ -8,7 +8,7 @@ namespace TheDuckGame
 {
     class Duck
     {
-        public void Quack() {
+        public virtual void Quack() {
             Console.WriteLine("El pato dice Quack");
         }
         public void Swim()
@@ -19,7 +19,7 @@ namespace TheDuckGame
         {
             Console.WriteLine("El pato se muestra");
         }
-        public void Fly()
+        public virtual void Fly()
         {
             Console.WriteLine("El pato Vuela");
         }

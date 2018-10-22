@@ -10,8 +10,18 @@ namespace TheDuckGame
     {
         static void Main(string[] args)
         {
-            RubberDuck patoPlastico = new RubberDuck();
+            Duck patoPlastico = new RubberDuck();
             patoPlastico.Quack();
+            patoPlastico.Swim();
+            patoPlastico.Display();
+            patoPlastico.Fly();
+            Duck patoRojo = new RedheadDuck();
+            patoRojo.Quack();
+            patoRojo.Swim();
+            patoRojo.Display();
+            patoRojo.Fly();
+            Console.ReadKey();
+            
         }
     }
 }

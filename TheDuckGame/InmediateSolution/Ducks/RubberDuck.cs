@@ -7,16 +7,16 @@ using TheDuckGame.IspSolution.Ducks.Insterfaces;
 
 namespace TheDuckGame
 {
-    class RubberDuck : Duck, IQuackable, IFlyable
+    class RubberDuck : Duck
     {
-        public void Quack()
+        public override void Quack()
         {
-            Console.WriteLine("El pato dice Quack");
+            Console.WriteLine("El pato No dice Quack");
         }
 
-        public void Fly()
+        public override void Fly()
         {
-            Console.WriteLine("El Pato Vuela");
+            Console.WriteLine("El Pato No  Vuela");
         }
     }
 }

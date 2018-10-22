@@ -11,13 +11,16 @@ namespace TheDuckGame
     {
         static void Main(string[] args)
         {
-            DuckIsp patoPlastico = new RubberDuckIsp();
+            RubberDuckIsp patoPlastico = new RubberDuckIsp();
             patoPlastico.Display();
             patoPlastico.Swim();
-            DuckIsp patoCabezaRoja = new RedheadDuckIsp();
+            
+            RedheadDuckIsp patoCabezaRoja = new RedheadDuckIsp();
             patoCabezaRoja.Swim();
             patoCabezaRoja.Display();
-
+            patoCabezaRoja.Quack();
+            patoCabezaRoja.Fly();
+            Console.ReadKey();
 
 
         }
