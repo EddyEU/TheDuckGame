@@ -10,6 +10,7 @@ namespace ConsoleAppDuck
             Duck patoMallard = new MallardDuck();
             patoMallard.display();
            ///pato 1
+           ///
 
             Console.ReadKey();
         }
