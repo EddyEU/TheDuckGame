@@ -8,6 +8,6 @@ namespace TheDuckGame.IspSolution.Ducks.Insterfaces
 {
     public interface IFlyable
     {
-        public void Fly();
+         void Fly();
     }
 }

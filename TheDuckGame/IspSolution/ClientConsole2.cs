@@ -17,6 +17,7 @@ namespace TheDuckGame
             DuckIsp patoCabezaRoja = new RedheadDuckIsp();
             patoCabezaRoja.Swim();
             patoCabezaRoja.Display();
+           
 
 
 

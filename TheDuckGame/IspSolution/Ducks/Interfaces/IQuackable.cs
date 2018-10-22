@@ -8,6 +8,6 @@ namespace TheDuckGame.IspSolution.Ducks.Insterfaces
 {
     public interface IQuackable
     {
-        public void Quack();
+         void Quack();
     }
 }
