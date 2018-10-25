@@ -14,6 +14,7 @@ namespace TheDuckGame
             RubberDuckIsp patoPlastico = new RubberDuckIsp();
             patoPlastico.Display();
             patoPlastico.Swim();
+
             
             RedheadDuckIsp patoCabezaRoja = new RedheadDuckIsp();
             patoCabezaRoja.Swim();

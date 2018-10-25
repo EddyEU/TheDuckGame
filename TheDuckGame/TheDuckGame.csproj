@@ -48,6 +48,7 @@
     <Compile Include="InmediateSolution\Ducks\Duck.cs" />
     <Compile Include="InmediateSolution\Ducks\MallarDuck.cs" />
     <Compile Include="IspSolution\ClientConsole2.cs" />
+    <Compile Include="IspSolution\Ducks\animateDuck.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\IFlyable.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\DuckIsp.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\IQuackable.cs" />
