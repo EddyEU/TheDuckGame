@@ -44,9 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classSolution\Interfaces\IDucksGroup.cs" />
+    <Compile Include="classSolution\Interfaces\ReadHeadDuck.cs" />
     <Compile Include="InmediateSolution\ClientConsole1.cs" />
     <Compile Include="InmediateSolution\Ducks\Duck.cs" />
+    <Compile Include="classSolution\Interfaces\IFlyC.cs" />
+    <Compile Include="classSolution\Interfaces\IQuackC.cs" />
+    <Compile Include="classSolution\Interfaces\ISwimC.cs" />
     <Compile Include="InmediateSolution\Ducks\MallarDuck.cs" />
+    <Compile Include="InmediateSolution\Ducks\ToyDuck.cs" />
     <Compile Include="IspSolution\ClientConsole2.cs" />
     <Compile Include="IspSolution\Ducks\animateDuck.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\IFlyable.cs" />
@@ -62,7 +68,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ospSolution\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

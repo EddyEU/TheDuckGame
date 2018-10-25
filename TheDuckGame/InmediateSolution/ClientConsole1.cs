@@ -12,20 +12,20 @@ namespace TheDuckGame
         static void Main(string[] args)
         {
             Duck patoPlastico = new RubberDuck();
-            patoPlastico.Quack();
-            patoPlastico.Swim();
-            patoPlastico.Display();
-            patoPlastico.Fly();
-            
             Duck patoRojo = new RedheadDuck();
-            patoRojo.Quack();
-            patoRojo.Swim();
-            patoRojo.Display();
-            patoRojo.Fly();
-            Console.ReadKey();
-
             Duck patoJugete = new ToyDuck();
-            patoJugete.Quack();
+           
+            List<Duck> patos = new List<Duck>();
+            patos.Add(patoPlastico);
+            patos.Add(patoRojo);
+            patos.Add(patoJugete);
+            foreach(Duck patoMostrar in patos){
+                patoMostrar.Quack();
+                patoMostrar.Swim();
+                patoMostrar.Display();
+                patoMostrar.Fly();
+            }
+            Console.ReadKey();
             
         }
     }
