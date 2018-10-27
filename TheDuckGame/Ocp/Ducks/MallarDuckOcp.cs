@@ -18,12 +18,12 @@ namespace TheDuckGame.Ocp
         }
         public override void PerformQuack()
         {
-            Console.WriteLine("Dice quack");
+            quackBehavior.Quack();
         }
 
         public override void PerforFly()
         {
-            Console.WriteLine("Vuela");
+            flyBehavior.Fly();
         }
 
         public override void Swim()
