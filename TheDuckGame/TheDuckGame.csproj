@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TheDuckGame.ClientConsole1</StartupObject>
+    <StartupObject>TheDuckGame.Ocp2v.Clent4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,13 +48,31 @@
     <Compile Include="InmediateSolution\Ducks\Duck.cs" />
     <Compile Include="InmediateSolution\Ducks\MallarDuck.cs" />
     <Compile Include="IspSolution\ClientConsole2.cs" />
-    <Compile Include="IspSolution\Ducks\animateDuck.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\IFlyable.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\DuckIsp.cs" />
     <Compile Include="IspSolution\Ducks\Interfaces\IQuackable.cs" />
     <Compile Include="IspSolution\Ducks\MallarDuckIsp.cs" />
     <Compile Include="IspSolution\Ducks\RedheadDuckIsp.cs" />
     <Compile Include="IspSolution\Ducks\RubberDuckIsp.cs" />
+    <Compile Include="Ocp2v\Class\FlyNoWay2.cs" />
+    <Compile Include="Ocp2v\Class\FlyWithWings2.cs" />
+    <Compile Include="Ocp2v\Class\IDucksOcp2.cs" />
+    <Compile Include="Ocp2v\Clent4.cs" />
+    <Compile Include="Ocp2v\Ducks\MallarDuckOcp2.cs" />
+    <Compile Include="Ocp2v\Ducks\RubberDuckOcp2.cs" />
+    <Compile Include="Ocp2v\Interfaces\IFlyBehavior2.cs" />
+    <Compile Include="Ocp2v\Interfaces\IQuackBehavior2.cs" />
+    <Compile Include="Ocp2v\Interfaces\QuackOcp2.cs" />
+    <Compile Include="Ocp\Client3.cs" />
+    <Compile Include="Ocp\Class\FlyNoWay.cs" />
+    <Compile Include="Ocp\Class\FlyWithWings.cs" />
+    <Compile Include="Ocp\Class\IDucksOcp.cs" />
+    <Compile Include="Ocp\Ducks\MallarDuckOcp.cs" />
+    <Compile Include="Ocp\Ducks\RubberDuckOcp.cs" />
+    <Compile Include="Ocp\Interfaces\IFlyBehavior.cs" />
+    <Compile Include="Ocp\Interfaces\IQuackBehavior.cs" />
+    <Compile Include="Ocp\Class\QuackOcp.cs" />
+    <Compile Include="Ocp\Ducks\RedHeadDuckOcp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InmediateSolution\Ducks\RedheadDuck.cs" />
     <Compile Include="InmediateSolution\Ducks\RubberDuck.cs" />

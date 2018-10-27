@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TheDuckGame.InmediateSolution.Ducks;
+
 
 namespace TheDuckGame
 {
@@ -24,8 +24,6 @@ namespace TheDuckGame
             patoRojo.Fly();
             Console.ReadKey();
 
-            Duck patoJugete = new ToyDuck();
-            patoJugete.Quack();
             
         }
     }
