@@ -6,7 +6,7 @@ using System.Text;
 namespace theDuck2
 {
     
-    class MuteFlyDuck : IDucks
+    class MuteFlyDuck : IDuck,IFlyBehavior
     
     {
 
@@ -16,24 +16,15 @@ namespace theDuck2
             this.flyBehavior = behavior;
         }
 
-        public override void PerformQuack()
+
+        public void PerformFly()
         {
-            throw new NotImplementedException();
+            flyBehavior.PerformFly();
         }
 
-        public override void PerforFly()
+        public void DoAction()
         {
-            throw new NotImplementedException();
-        }
-
-        public override void Swim()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override void Display()
-        {
-            throw new NotImplementedException();
+            PerformFly();
         }
     }
 }

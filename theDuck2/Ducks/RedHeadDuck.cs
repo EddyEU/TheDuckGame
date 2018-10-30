@@ -6,31 +6,32 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    class MallarDuck:IDucks,IFlyBehavior,IDisplayBehavior,IQuackBehavior,ISwimBehavior
+    class RedHeadDuck :IDuck,IFlyBehavior,IDisplayBehavior,IQuackBehavior,ISwimBehavior
     {
-        IFlyBehavior flyBehavior;
+
+       IFlyBehavior flyBehavior;
         IQuackBehavior quackBehavior;
-        public MallarDuck(IQuackBehavior quackBehavior, IFlyBehavior flyBehavior)
+        public RedHeadDuck(IQuackBehavior quackBehavior, IFlyBehavior flyBehavior)
         {
             this.flyBehavior = flyBehavior;
             this.quackBehavior = quackBehavior;
         }
-        public override void PerformQuack()
+        public  void PerformQuack()
         {
-            quackBehavior.Quack();
+            quackBehavior.PerformQuack();
         }
 
-        public override void PerformFly()
+        public  void PerformFly()
         {
-            flyBehavior.Fly();
+            flyBehavior.PerformFly();
         }
 
-        public override void Swim()
+        public  void Swim()
         {
             Console.WriteLine("Nada");
         }
 
-        public override void Display()
+        public  void Display()
         {
             Console.WriteLine("Se muestra");
         }
@@ -43,5 +44,6 @@ namespace theDuck2
             PerformFly();
 
         }
+
     }
 }

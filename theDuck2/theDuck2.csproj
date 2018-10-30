@@ -43,16 +43,17 @@
   <ItemGroup>
     <Compile Include="Class\FlyNoWay.cs" />
     <Compile Include="Class\FlyWithWings.cs" />
-    <Compile Include="Class\IDuck.cs" />
-    <Compile Include="Ducks\MallarDuckOcp.cs" />
-    <Compile Include="Ducks\RedHeadDuckOcp.cs" />
-    <Compile Include="Ducks\RubberDuckOcp.cs" />
+    <Compile Include="Class\QuackSound.cs" />
+    <Compile Include="Interfaces\IDuck.cs" />
+    <Compile Include="Ducks\MallarDuck.cs" />
+    <Compile Include="Ducks\RedHeadDuck.cs" />
+    <Compile Include="Ducks\RubberDuck.cs" />
     <Compile Include="Interfaces\IDisplayBehavior.cs" />
     <Compile Include="Interfaces\IFlyBehavior.cs" />
     <Compile Include="Interfaces\IQuackBehavior.cs" />
     <Compile Include="Interfaces\ISwimBehavior.cs" />
     <Compile Include="MuteFlyDuck.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

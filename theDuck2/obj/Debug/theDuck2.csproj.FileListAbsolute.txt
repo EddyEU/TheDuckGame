@@ -1,1 +1,6 @@
 c:\users\pc\documents\visual studio 2013\Projects\theDuck2\theDuck2\bin\Debug\theDuck2.exe.config
+C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\bin\Debug\theDuck2.exe.config
+C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\bin\Debug\theDuck2.exe
+C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\bin\Debug\theDuck2.pdb
+C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\obj\Debug\theDuck2.exe
+C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\obj\Debug\theDuck2.pdb

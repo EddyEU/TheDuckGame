@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    interface IQuackBehavior 
+    public interface IQuackBehavior 
     {
-        virtual void Quack();
+          void PerformQuack();
     }
 }

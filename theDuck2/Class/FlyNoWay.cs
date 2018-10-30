@@ -9,7 +9,7 @@ namespace theDuck2
     class FlyNoWay : IFlyBehavior
     {
 
-        public  void Fly()
+        public  void PerformFly()
         {
             Console.WriteLine("Este pato no puede volar.");
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    class RubberDuckOcp : IDucks,IDisplayBehavior,ISwimBehavior
+    class RubberDuck : IDuck,IDisplayBehavior,ISwimBehavior
     {
 
         public void DoAction()

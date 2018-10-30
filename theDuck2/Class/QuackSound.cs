@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    interface  IDucks
+    public class QuackSound : IQuackBehavior
     {
-        public abstract void DoAction();
+
+
+        void IQuackBehavior.PerformQuack()
+        {
+            Console.WriteLine("Dice Quack");
+        }
     }
 }

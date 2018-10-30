@@ -8,6 +8,6 @@ namespace theDuck2
 {
     interface ISwimBehavior
     {
-        virtual void Swim();
+         void Swim();
     }
 }

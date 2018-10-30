@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    class Program
+    interface  IDuck
     {
-        static void Main(string[] args)
-        {
-        }
+        void DoAction();
     }
 }

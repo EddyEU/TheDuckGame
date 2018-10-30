@@ -8,7 +8,7 @@ namespace theDuck2
 {
     class FlyWithWings : IFlyBehavior
     {
-        public  void Fly()
+        public  void PerformFly()
         {
             Console.WriteLine("El pato vuela con las alas.");
         }

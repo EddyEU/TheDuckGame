@@ -8,6 +8,6 @@ namespace theDuck2
 {
     interface IDisplayBehavior
     {
-        virtual void Display();
+         void Display();
     }
 }

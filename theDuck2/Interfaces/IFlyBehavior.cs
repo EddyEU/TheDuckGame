@@ -8,6 +8,6 @@ namespace theDuck2
 {
     interface IFlyBehavior
     {
-        virtual void Fly();
+         void PerformFly();
     }
 }
