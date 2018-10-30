@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TheDuckGame.Ocp2v.Clent4</StartupObject>
+    <StartupObject>TheDuckGame.ClientConsole2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,15 +54,14 @@
     <Compile Include="IspSolution\Ducks\MallarDuckIsp.cs" />
     <Compile Include="IspSolution\Ducks\RedheadDuckIsp.cs" />
     <Compile Include="IspSolution\Ducks\RubberDuckIsp.cs" />
-    <Compile Include="Ocp2v\Class\FlyNoWay2.cs" />
-    <Compile Include="Ocp2v\Class\FlyWithWings2.cs" />
-    <Compile Include="Ocp2v\Class\IDucksOcp2.cs" />
-    <Compile Include="Ocp2v\Clent4.cs" />
-    <Compile Include="Ocp2v\Ducks\MallarDuckOcp2.cs" />
-    <Compile Include="Ocp2v\Ducks\RubberDuckOcp2.cs" />
-    <Compile Include="Ocp2v\Interfaces\IFlyBehavior2.cs" />
-    <Compile Include="Ocp2v\Interfaces\IQuackBehavior2.cs" />
-    <Compile Include="Ocp2v\Interfaces\QuackOcp2.cs" />
+    <Compile Include="Ocp3v\Classes\DuckOcp3.cs" />
+    <Compile Include="Ocp3v\Classes\FlyWithWingsPOcp3.cs" />
+    <Compile Include="Ocp3v\Classes\QuackOcp3.cs" />
+    <Compile Include="Ocp3v\Client4.cs" />
+    <Compile Include="Ocp3v\Ducks\MallarDuckOcp3.cs" />
+    <Compile Include="Ocp3v\Ducks\RubberDuckOcp3.cs" />
+    <Compile Include="Ocp3v\Interfaces\IFlyBehaviorOcp3.cs" />
+    <Compile Include="Ocp3v\Interfaces\IQuackBehaviorOcp3.cs" />
     <Compile Include="Ocp\Client3.cs" />
     <Compile Include="Ocp\Class\FlyNoWay.cs" />
     <Compile Include="Ocp\Class\FlyWithWings.cs" />
@@ -81,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Img\Icp.png" />
+    <Content Include="Img\Ocp.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

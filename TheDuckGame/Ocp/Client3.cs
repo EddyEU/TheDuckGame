@@ -12,21 +12,26 @@ namespace TheDuckGame.Ocp
         static void Main(string[] args)
         {
 
-            //IDucksOcp patoRojo = new RedHeadDuckOcp(new QuackOcp(), new FlyWithWings());
-            //IDucksOcp patoPlastico = new RubberDuckOcp(new QuackOcp(), new FlyNoWay());
-            //IDucksOcp patoMallar = new MallarDuckOcp(new QuackOcp(), new FlyNoWay());
-            //IDucksOcp[] arrayPatos = { patoRojo, patoPlastico, patoMallar };
-            //IList<IDucksOcp> listaPatos = new List<IDucksOcp>(arrayPatos);
-            //foreach (IDucksOcp pato in listaPatos)
-            //{
-            //    pato.Display();
-            //    pato.Swim();
-            //    pato.PerformQuack();
-            //    pato.PerforFly();
-            //    Console.WriteLine("-----------------------------------");
-            //}
+            IDucksOcp patoRojo = new RedHeadDuckOcp(new QuackOcp(), new FlyWithWings());
+            IDucksOcp patoPlastico = new RubberDuckOcp(new QuackOcp(), new FlyNoWay());
+            IDucksOcp patoMallar = new MallarDuckOcp(new QuackOcp(), new FlyNoWay());
 
-            //Console.ReadKey();
+          //  IDucksOcp newDuck = new IDucksOcp();
+
+            IDucksOcp[] arrayPatos = { patoRojo, patoPlastico, patoMallar };
+            IList<IDucksOcp> listaPatos = new List<IDucksOcp>(arrayPatos);
+            Console.WriteLine("OCP .");
+
+            foreach (IDucksOcp pato in listaPatos)
+            {
+                pato.Display();
+                pato.Swim();
+                pato.PerformQuack();
+                pato.PerforFly();
+                Console.WriteLine("-----------------------------------");
+            }
+
+            Console.ReadKey();
 
         }
     }
