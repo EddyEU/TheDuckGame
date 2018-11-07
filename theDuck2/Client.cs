@@ -16,15 +16,16 @@ namespace theDuck2
             IDuck patoMallar = new MallarDuck(new QuackSound(), new FlyNoWay());
             IDuck patoMudo = new MuteFlyDuck( new FlyWithWings());
 
+            IDuck perro = new Perro(new GuauBehavior());
 
-            IDuck[] arrayPatos = { patoRojo, patoPlastico, patoMallar, patoMudo };
+
+            IDuck[] arrayPatos = { patoRojo, patoPlastico, patoMallar, patoMudo, perro };
             IList<IDuck> listaPatos = new List<IDuck>(arrayPatos);
             foreach (IDuck pato in listaPatos)
             {
                 pato.DoAction();
                 Console.WriteLine("--------------------------");
             }
-            Console.ReadKey();
         }
     }
 }

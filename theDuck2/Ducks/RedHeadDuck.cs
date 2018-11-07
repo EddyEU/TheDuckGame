@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    class RedHeadDuck :IDuck,IFlyBehavior,IDisplayBehavior,IQuackBehavior,ISwimBehavior
+    class RedHeadDuck :IDuck,IDisplayBehavior,ISwimBehavior
     {
 
        IFlyBehavior flyBehavior;
         IQuackBehavior quackBehavior;
+
         public RedHeadDuck(IQuackBehavior quackBehavior, IFlyBehavior flyBehavior)
         {
             this.flyBehavior = flyBehavior;

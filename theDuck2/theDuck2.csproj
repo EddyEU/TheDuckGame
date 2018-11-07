@@ -44,6 +44,7 @@
     <Compile Include="Class\FlyNoWay.cs" />
     <Compile Include="Class\FlyWithWings.cs" />
     <Compile Include="Class\QuackSound.cs" />
+    <Compile Include="GuauBehavior.cs" />
     <Compile Include="Interfaces\IDuck.cs" />
     <Compile Include="Ducks\MallarDuck.cs" />
     <Compile Include="Ducks\RedHeadDuck.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Interfaces\ISwimBehavior.cs" />
     <Compile Include="MuteFlyDuck.cs" />
     <Compile Include="Client.cs" />
+    <Compile Include="Perro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

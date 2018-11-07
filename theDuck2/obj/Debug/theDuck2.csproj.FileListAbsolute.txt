@@ -4,3 +4,4 @@ C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\bin\Debug
 C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\bin\Debug\theDuck2.pdb
 C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\obj\Debug\theDuck2.exe
 C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\obj\Debug\theDuck2.pdb
+C:\Users\PC\Documents\Visual Studio 2013\Projects\TheDuckGame\theDuck2\obj\Debug\theDuck2.csprojResolveAssemblyReference.cache

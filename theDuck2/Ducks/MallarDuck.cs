@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace theDuck2
 {
-    class MallarDuck:IDuck,IFlyBehavior,IDisplayBehavior,IQuackBehavior,ISwimBehavior
+    class MallarDuck:IDuck,IFlyBehavior,IDisplayBehavior
     {
         IFlyBehavior flyBehavior;
         IQuackBehavior quackBehavior;
